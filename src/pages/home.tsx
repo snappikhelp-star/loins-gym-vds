@@ -218,7 +218,7 @@ export default function Home() {
       {/* ── HERO ── */}
       <section id="home" className="relative flex flex-col overflow-hidden" style={{minHeight: '100dvh'}}>
         <motion.div style={{scale: bgScale}} className="absolute inset-0 z-0">
-          <img src={heroBg} alt="Lion's Gym Building" className="w-full h-full object-cover"
+          <img src={heroBg} alt="Lion's Gym Building" className="w-full h-full object-cover object-top"
             style={{objectPosition: 'center 25%'}} />
           <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/55 to-black/80"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/30"></div>
