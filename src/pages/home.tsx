@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-import logoPath from "@assets/254204a3-6cf1-4b5f-97bb-a66762f81437_1779655396101.png";
+import logoPath from "@assets/logo.png";
 
 /* ─── NEW BUILDING PHOTOS ─── */
 import heroBg    from "@assets/f97cc117-5014-4a57-be0f-4874c86604abvbv_1779669077975.png";
