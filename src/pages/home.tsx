@@ -543,7 +543,7 @@ export default function Home() {
               <motion.div key={i} initial={{opacity:0,y:24}} whileInView={{opacity:1,y:0}} viewport={{once:true}}
                 transition={{duration:0.6,delay:i*0.1}} className="group relative overflow-hidden">
                 <img src={item.src} alt={item.title}
-                  className="w-full h-72 sm:h-80 object-cover object-top group-hover:scale-105 transition-transform duration-600"/>
+                  className="w-full h-72 sm:h-80 object-contain object-center bg-black group-hover:scale-105 transition-transform duration-600"/>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-4">
                   <h4 className="text-white font-bold text-base uppercase">{item.title}</h4>
